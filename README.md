@@ -7,7 +7,7 @@ This is a testing application that has being used to show how to containerize an
 To build the app, run the following command:
 
 ```bash
-podman build --tag ghcr.io/nethesis/meeting-2024-app:latest .
+podman build --tag ghcr.io/tbaile/meeting-2024-app:latest .
 ```
 
 ## Configure and run the app
@@ -21,6 +21,6 @@ podman run --rm \
   --name meeting-2024-app \
   --env-file .env.container \
   -p 8080:80 \
-  ghcr.io/nethesis/meeting-2024-app:latest
+  ghcr.io/tbaile/meeting-2024-app:latest
 ```
 
