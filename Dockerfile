@@ -1,5 +1,5 @@
 # Starting from the official PHP 8 image with Apache
-FROM php:8.2-apache
+FROM php:8.3-apache
 # Change the document root, for Laravel it's "public"
 # source: https://hub.docker.com/_/php/
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
